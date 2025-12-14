@@ -348,10 +348,10 @@ export default function App() {
                 Generate Addresses
               </strong>
               <p className="text-base/relaxed font-light text-white/50 px-10 text-center mt-5">
-                Generate upto 1000 addresses for a wallet per generation. For
+                Generate upto 1000 addresses for a wallet. For
                 each generation, all generated addresses would be downloaded as
                 a single csv file, each address in the csv file would be denoted
-                by its private key and seed phrase
+                by its public key, private key and seed phrase
               </p>
               <p className="text-xl font-semibold text-white text-center mt-5">
                 Enter your 12-word seed phrase
